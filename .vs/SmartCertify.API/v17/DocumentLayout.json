@@ -1,0 +1,409 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SmartCertify\\SmartCertify.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{721BECAB-C0A0-461C-855A-B6233A654AB9}|SmartCertify.API\\SmartCertify.API.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721BECAB-C0A0-461C-855A-B6233A654AB9}|SmartCertify.API\\SmartCertify.API.csproj|solutionrelative:smartcertify.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{721BECAB-C0A0-461C-855A-B6233A654AB9}|SmartCertify.API\\SmartCertify.API.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721BECAB-C0A0-461C-855A-B6233A654AB9}|SmartCertify.API\\SmartCertify.API.csproj|solutionrelative:smartcertify.api\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E29477-3E86-4265-80CC-7E8A8122AC8F}|SmartCertify.Infrastructure\\SmartCertify.Infrastructure.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.infrastructure\\smartcertifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E29477-3E86-4265-80CC-7E8A8122AC8F}|SmartCertify.Infrastructure\\SmartCertify.Infrastructure.csproj|solutionrelative:smartcertify.infrastructure\\smartcertifydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{721BECAB-C0A0-461C-855A-B6233A654AB9}|SmartCertify.API\\SmartCertify.API.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{721BECAB-C0A0-461C-855A-B6233A654AB9}|SmartCertify.API\\SmartCertify.API.csproj|solutionrelative:smartcertify.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\userprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\usernotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\usernotification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\useractivitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\useractivitylog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\smartapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\smartapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\examquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\examquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\contactu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\contactu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\entities\\bannerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\entities\\bannerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FD12B5F5-A7B1-47F8-9043-2C70BF437EBB}|SmartCertify.Domain\\SmartCertify.Domain.csproj|solutionrelative:smartcertify.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{721BECAB-C0A0-461C-855A-B6233A654AB9}|SmartCertify.API\\SmartCertify.API.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{721BECAB-C0A0-461C-855A-B6233A654AB9}|SmartCertify.API\\SmartCertify.API.csproj|solutionrelative:smartcertify.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{721BECAB-C0A0-461C-855A-B6233A654AB9}|SmartCertify.API\\SmartCertify.API.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{721BECAB-C0A0-461C-855A-B6233A654AB9}|SmartCertify.API\\SmartCertify.API.csproj|solutionrelative:smartcertify.api\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E29477-3E86-4265-80CC-7E8A8122AC8F}|SmartCertify.Infrastructure\\SmartCertify.Infrastructure.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.infrastructure\\smartcertify.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F0E29477-3E86-4265-80CC-7E8A8122AC8F}|SmartCertify.Infrastructure\\SmartCertify.Infrastructure.csproj|solutionrelative:smartcertify.infrastructure\\smartcertify.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0E29477-3E86-4265-80CC-7E8A8122AC8F}|SmartCertify.Infrastructure\\SmartCertify.Infrastructure.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0E29477-3E86-4265-80CC-7E8A8122AC8F}|SmartCertify.Infrastructure\\SmartCertify.Infrastructure.csproj|solutionrelative:smartcertify.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C985A2D-EFB8-4784-8765-1342C84B5600}|SmartCertify.Application\\SmartCertify.Application.csproj|d:\\smartcertify\\smartcertify.api\\smartcertify.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C985A2D-EFB8-4784-8765-1342C84B5600}|SmartCertify.Application\\SmartCertify.Application.csproj|solutionrelative:smartcertify.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\UserRole.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\UserRole.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:44:41.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmartCertifyDbContext.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Infrastructure\\SmartCertifyDbContext.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Infrastructure\\SmartCertifyDbContext.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Infrastructure\\SmartCertifyDbContext.cs",
+              "RelativeToolTip": "SmartCertify.Infrastructure\\SmartCertifyDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:20:49.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "SmartCertify.API\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.API\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "SmartCertify.API\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:25:47.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.API\\Program.cs",
+              "RelativeDocumentMoniker": "SmartCertify.API\\Program.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.API\\Program.cs",
+              "RelativeToolTip": "SmartCertify.API\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA5wDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:16:01.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserActivityLog.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\UserActivityLog.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\UserActivityLog.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\UserActivityLog.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\UserActivityLog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:46:28.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "SmartCertify.API\\appsettings.Development.json",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.API\\appsettings.Development.json",
+              "RelativeToolTip": "SmartCertify.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-09T14:11:53.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserProfile.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\UserProfile.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\UserProfile.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\UserProfile.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\UserProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:43:14.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserNotification.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\UserNotification.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\UserNotification.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\UserNotification.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\UserNotification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:44:51.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SmartApp.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\SmartApp.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\SmartApp.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\SmartApp.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\SmartApp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:46:19.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Role.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\Role.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\Role.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:46:12.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\Question.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\Question.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\Question.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\Question.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:46:03.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\Notification.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\Notification.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\Notification.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:45:55.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ExamQuestion.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\ExamQuestion.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\ExamQuestion.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\ExamQuestion.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\ExamQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:45:46.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\Exam.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\Exam.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\Exam.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\Exam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:45:39.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Course.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\Course.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\Course.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\Course.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:45:29.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ContactU.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\ContactU.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\ContactU.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\ContactU.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\ContactU.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:43:07.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Choice.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\Choice.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\Choice.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\Choice.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\Choice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:45:15.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BannerInfo.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\BannerInfo.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Entities\\BannerInfo.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Entities\\BannerInfo.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Entities\\BannerInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:45:05.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Domain\\Class1.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Domain\\Class1.cs",
+              "RelativeToolTip": "SmartCertify.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T15:20:36.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.API\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "SmartCertify.API\\WeatherForecast.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.API\\WeatherForecast.cs",
+              "RelativeToolTip": "SmartCertify.API\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T14:25:26.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartCertify.API\\appsettings.json",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.API\\appsettings.json",
+              "RelativeToolTip": "SmartCertify.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-09T14:11:59.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SmartCertify.Infrastructure.csproj",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Infrastructure\\SmartCertify.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "SmartCertify.Infrastructure\\SmartCertify.Infrastructure.csproj",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Infrastructure\\SmartCertify.Infrastructure.csproj",
+              "RelativeToolTip": "SmartCertify.Infrastructure\\SmartCertify.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-09T10:14:39.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Infrastructure\\Class1.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "SmartCertify.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-09T08:42:36.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "SmartCertify.Application\\Class1.cs",
+              "ToolTip": "D:\\SmartCertify\\SmartCertify.API\\SmartCertify.Application\\Class1.cs",
+              "RelativeToolTip": "SmartCertify.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-08T15:21:46.256Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
