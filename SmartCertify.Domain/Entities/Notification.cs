@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+
 namespace SmartCertify.Domain.Entities;
 
 public partial class Notification
