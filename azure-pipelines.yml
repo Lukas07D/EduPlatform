@@ -1,0 +1,18 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- task: UseDotNet@2
+  displayName: 'Install .NET 9 SDK'
+  inputs:
+    packageType: 'sdk'
+    version: '9.x'
+
+- script: dotnet restore SmartCertify.API.sln
+  displayName: 'Restore dependencies'
+
+- script: dotnet build SmartCertify.API.sln --configuration Release --no-restore
+  displayName: 'Build solution'
