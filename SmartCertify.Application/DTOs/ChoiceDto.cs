@@ -45,7 +45,7 @@ public class UpdateUserChoice
     public class UpdateChoiceDto : UpdateUserChoice 
        {
     [Required]
-    [StringLength(200, ErrorMessage ="Choice text cannot exceed 20 characters.")]
+    [StringLength(200, ErrorMessage ="Choice text cannot exceed 200 characters.")]
     public string ChoiceText { get; set; } = string.Empty;
     public bool IsCode { get; set; }
        }

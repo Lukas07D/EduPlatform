@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using SmartCertify.Application.interfaces.Choices;
 
 namespace SmartCertify.API.Controllers
@@ -8,7 +7,6 @@ namespace SmartCertify.API.Controllers
         [Route("api/[controller]")]
         [ApiController]
         
-        [Authorize]
         public class ChoicesController : ControllerBase
         {
             private readonly IChoiceService _service;
@@ -33,7 +31,6 @@ namespace SmartCertify.API.Controllers
 
             [HttpPost]
            
-            [Authorize]
             public async Task<IActionResult> CreateChoice([FromBody] CreateChoiceDto dto)
             {
                 await _service.AddChoiceAsync(dto);
@@ -42,7 +39,6 @@ namespace SmartCertify.API.Controllers
 
             [HttpPut("{id}")]
            
-            [Authorize]
             public async Task<IActionResult> UpdateChoice(int id, [FromBody] UpdateChoiceDto dto)
             {
                 await _service.UpdateChoiceAsync(id, dto);
@@ -51,7 +47,6 @@ namespace SmartCertify.API.Controllers
 
             [HttpPatch("{id}")]
            
-            [Authorize]
             public async Task<IActionResult> UpdateUserChoice(int id, [FromBody] UpdateUserChoice dto)
             {
                 await _service.UpdateUserChoiceAsync(id, dto);
@@ -60,7 +55,6 @@ namespace SmartCertify.API.Controllers
 
             [HttpDelete("{id}")]
             
-            [Authorize]
             public async Task<IActionResult> DeleteChoice(int id)
             {
                 await _service.DeleteChoiceAsync(id);

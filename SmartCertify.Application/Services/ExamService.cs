@@ -11,12 +11,12 @@ namespace SmartCertify.Application.Services
 {
     public class ExamService : IExamService
     {
-        private readonly IExamService _service;
+        private readonly IExamRepository _examRepository;
         private readonly IMapper _mapper;
-        public ExamService(IExamService service, IMapper mapper) 
+        public ExamService(IExamRepository examRepository, IMapper mapper) 
         {
-        _service = service; 
-        _mapper = mapper;
+            _examRepository = examRepository;
+            _mapper = mapper;
         }
         public Task<ExamResponseDto> GetExamDetailsAsync(int examId)
         {

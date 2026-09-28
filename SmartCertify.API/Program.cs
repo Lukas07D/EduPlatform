@@ -13,6 +13,7 @@ using FluentValidation;
 using SmartCertify.Application.DTOValidations;
 using SmartCertify.Application.interfaces.Questions;
 using SmartCertify.Application.DTOs;
+using SmartCertify.Application.interfaces.Choices;
 namespace SmartCertify.API
 {
     public class Program
@@ -29,10 +30,8 @@ namespace SmartCertify.API
 
             // Add services to the container.
             // Add FluentValdiation
+            // One scan registers every validator in the Application assembly
             builder.Services.AddValidatorsFromAssemblyContaining<CreateCourseValidator>();
-            builder.Services.AddValidatorsFromAssemblyContaining<UpdateCourseValidator>();
-            builder.Services.AddValidatorsFromAssemblyContaining<QuestionValidator>();
-            builder.Services.AddValidatorsFromAssemblyContaining<UpdateQuestionValidator>();
 
             // adding 
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
@@ -44,6 +43,9 @@ namespace SmartCertify.API
 
             builder.Services.AddScoped<IQuestionRepository, QuestionRepository>();
             builder.Services.AddScoped<IQuestionService, QuestionService>();
+
+            builder.Services.AddScoped<IChoiceRespository, ChoiceRespository>();
+            builder.Services.AddScoped<IChoiceService, ChoiceService>();
             // IN production, modify this with the actual domains you want to allow 
             builder.Services.AddCors(options =>
             {

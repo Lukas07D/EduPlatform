@@ -20,13 +20,16 @@ namespace SmartCertify.Application.Services
             this._courseRepository = courseRepository;
             this._mapper = mapper;  
         }
-        public async Task AddCourseAsync(CreateCourseDto createCourseDto)
+        public async Task<CourseDto> AddCourseAsync(CreateCourseDto createCourseDto)
         {
             var course = _mapper.Map<Course>(createCourseDto);
             course.CreatedBy = 1; // Replace with acutal user context
             course.CreatedOn = DateTime.UtcNow;
 
             await _courseRepository.AddCourseAsync(course);
+
+            // After SaveChanges EF Core sets the generated CourseId on the entity
+            return _mapper.Map<CourseDto>(course);
         }
 
         public async Task DeleteCourseAsync(int courseId)

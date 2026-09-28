@@ -13,13 +13,9 @@ namespace SmartCertify.API.Controllers
     public class CoursesController : ControllerBase
     {
         private readonly ICourseService _service;
-        private readonly IValidator<CreateCourseDto> validator;
-        private readonly IValidator<UpdateCourseDto> updateValidator;
-        public CoursesController(ICourseService service, IValidator<CreateCourseDto> validator, IValidator<UpdateCourseDto> updateValidator) 
+        public CoursesController(ICourseService service) 
         {
            this._service = service;
-           this.validator = validator;
-           this.updateValidator = updateValidator;
         }
         [HttpGet]
         [ProducesResponseType(typeof(IEnumerable<CourseDto>), StatusCodes.Status200OK)]
@@ -46,22 +42,17 @@ namespace SmartCertify.API.Controllers
         }
 
         [HttpPost]
-        [ProducesResponseType(typeof(CreateCourseDto), StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(CourseDto), StatusCodes.Status201Created)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
 
         public async Task<IActionResult> CreateCourse([FromBody] CreateCourseDto createCourseDto) 
         {
-            var validationResult = await validator.ValidateAsync(createCourseDto);
-
-            if (!validationResult.IsValid) 
-            {
-                return BadRequest(validationResult.Errors);
-            }
-
-            await _service.AddCourseAsync(createCourseDto);
-            return CreatedAtAction(nameof(GetCourse), new { id = createCourseDto.Title }, createCourseDto);
+            // Validation is handled globally by ValidationFilter
+            var createdCourse = await _service.AddCourseAsync(createCourseDto);
+            return CreatedAtAction(nameof(GetCourse), new { id = createdCourse.CourseId }, createdCourse);
         }
 
         /// <summary>
@@ -82,11 +73,6 @@ namespace SmartCertify.API.Controllers
 
         public async Task<IActionResult> UpdateCourse(int id, [FromBody] UpdateCourseDto updateCourseDto) 
         {
-            var validationResult = await updateValidator.ValidateAsync(updateCourseDto);
-            if (!validationResult.IsValid) 
-            {
-                return BadRequest(validationResult.Errors);
-            }
             await _service.UpdateCourseAsync(id, updateCourseDto);
             return NoContent();
         }

@@ -19,14 +19,20 @@ namespace SmartCertify.Application
          CreateMap<CreateCourseDto, Course>();
          CreateMap<UpdateCourseDto, Course>().ForAllMembers(opts => opts.Condition((src, dest, srcMember) => srcMember != null));
          
-         CreateMap<QuestionDto, Question>().ReverseMap();
          CreateMap<CreateQuestionDto, Question>();
          CreateMap<UpdateQuestionDto, Question>();
 
-            CreateMap<Choice, ChoiceDto>().ReverseMap()
-               .ForMember(dest => dest.ChoiceText, opt => opt.MapFrom(src => src.QuestionText));
+         // ChoiceDto exposes the choice text as QuestionText, so map it explicitly in both directions
+         CreateMap<Choice, ChoiceDto>()
+            .ForMember(dest => dest.QuestionText, opt => opt.MapFrom(src => src.ChoiceText))
+            .ReverseMap()
+            .ForMember(dest => dest.ChoiceText, opt => opt.MapFrom(src => src.QuestionText));
          CreateMap<CreateChoiceDto, Choice>();
-         CreateMap<UpdateChoiceDto, Choice>();
+         // Never overwrite the primary key of a tracked entity from request data
+         CreateMap<UpdateUserChoice, Choice>()
+            .ForMember(dest => dest.ChoiceId, opt => opt.Ignore());
+         CreateMap<UpdateChoiceDto, Choice>()
+            .ForMember(dest => dest.ChoiceId, opt => opt.Ignore());
 
           CreateMap<Question, QuestionDto>()
          .ForMember(dest => dest.Choices, opt => opt.MapFrom(src => src.Choices));
@@ -34,7 +40,6 @@ namespace SmartCertify.Application
           CreateMap<QuestionDto, Question>()
          .ForMember(dest => dest.Choices, opt => opt.Ignore()); // Ignore to handle manually
 
-         CreateMap<ExamDto, Exam>();
          CreateMap<Exam, ExamDto>().ReverseMap();
 
         }
