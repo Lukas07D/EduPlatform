@@ -1,0 +1,41 @@
+.container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f9f9f9;
+
+}
+
+.example-section h2 {
+    margin: 0 0 12px 0;
+    font-size: 18px;
+}
+.example-section {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 16px 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.06);
+}
+.app-logo {
+    width: 100px;
+    height: auto;
+}
+
+.text-primary {
+    color: #2c3e50;
+}
+
+.text-secondary {
+    color: gray;
+}
+
+.list-group-item {
+    font-size: 18px;
+}
+.hover-box {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
